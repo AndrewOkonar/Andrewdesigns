@@ -1,0 +1,33 @@
+{
+  "name": "some_name",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Some author",
+  "main": "./gulpfile.js",
+  "scripts": {
+    "postinstall": "npm run watch",
+    "watch": "gulp"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "private": true,
+  "dependencies": {
+    "bootstrap": "*",
+    "jquery": "*",
+    "natives": "^1.1.6"
+  },
+  "devDependencies": {
+    "boolean": "*",
+    "gulp": "*",
+    "gulp-concat": "*",
+    "gulp-connect": "*",
+    "gulp-cssnano": "*",
+    "gulp-rimraf": "*",
+    "gulp-sass": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify": "*",
+    "run-sequence": "*",
+    "yargs": "^7.0.2"
+  }
+}
