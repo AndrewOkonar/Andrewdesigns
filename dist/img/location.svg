@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>room_black_24dp</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1313.000000, -3864.000000)">
+            <g id="room_black_24dp" transform="translate(1313.000000, 3864.000000)">
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                <path d="M12,2 C7.8,2 4,5.22 4,10.2 C4,13.38 6.45,17.12 11.34,21.43 C11.72,21.76 12.29,21.76 12.67,21.43 C17.55,17.12 20,13.38 20,10.2 C20,5.22 16.2,2 12,2 Z M12,12 C10.9,12 10,11.1 10,10 C10,8.9 10.9,8 12,8 C13.1,8 14,8.9 14,10 C14,11.1 13.1,12 12,12 Z" id="Shape" fill="#EF5350" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

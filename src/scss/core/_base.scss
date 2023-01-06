@@ -6,16 +6,18 @@ html, body {
   -webkit-background-clip: padding-box;
   color: #000000;
   font-size: 14px;
+	background: #0D0D0D;
 }
 
-button, .button {
+h1 {
+	font-family: 'Abril Fatface', cursive;
+}
+
+
+button {
 	outline: none;
 	border: none;
 	user-select: none;
-	&:focus {
-		outline: -webkit-focus-ring-color auto 0px;
-		box-shadow: none !important;
-	}
 }
 
 ul {
@@ -31,6 +33,9 @@ a, a:visited,a:hover,a:focus,a:active {
 	text-decoration: none;
 }
 
+a {
+	color: #0D0D0D;
+}
 input:focus {
 	outline: none;
 }

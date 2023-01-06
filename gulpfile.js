@@ -27,10 +27,15 @@ const PATHS = {
     ],
     libs: [
         `node_modules/jquery/dist/jquery.min.js`,
-        `node_modules/bootstrap/dist/js/bootstrap.min.js`
+        `node_modules/bootstrap/dist/js/bootstrap.min.js`,
+        `js-modules/wow.js`,
+        `js-modules/midnight.js`,
+        `js-modules/owl.carousel.min.js`
     ],
     styles: [
-        `node_modules/bootstrap/dist/css/bootstrap.min.css`
+        `node_modules/bootstrap/dist/css/bootstrap.min.css`,
+        `js-modules/assets/owl.carousel.min.css`,
+        `js-modules/assets/owl.theme.default.min.css`
     ],
 	sourceFonts: [
 		`node_modules/bootstrap/fonts/`
@@ -133,6 +138,6 @@ gulp.task('default', ['build','server','watch']);
 gulp.task('watch', () => {
     gulp.watch('src/**/*.js', ['js:app']);
     gulp.watch('src/**/*.scss', ['sass:app']);
-    gulp.watch('src/images/**/*.*', ['copy:images']);
+    gulp.watch('src/img/**/*.*', ['copy:images']);
     gulp.watch('src/fonts/**/*.*', ['copy:fonts']);
 });
