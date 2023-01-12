@@ -1859,6 +1859,13 @@ footer {
   }
 }
 
+.project-link {
+  margin-top: 24px;
+  a {
+    font-size: 16px;
+    color: #0D0D0D;
+  }
+}
 
 .project-userflow {
   background: #fff;
@@ -1938,7 +1945,7 @@ footer {
 .project-portfolio-screens {
   background: #fff;
   padding: 80px 0 0;
-  h2 {
+  .top-content {
     margin-bottom: 32px;
   }
 }

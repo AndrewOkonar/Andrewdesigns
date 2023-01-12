@@ -4486,6 +4486,12 @@ footer {
   .project-persona .description li img {
     margin-right: 6px; }
 
+.project-link {
+  margin-top: 24px; }
+  .project-link a {
+    font-size: 16px;
+    color: #0D0D0D; }
+
 .project-userflow {
   background: #fff;
   padding: 80px 0; }
@@ -4553,7 +4559,7 @@ footer {
 .project-portfolio-screens {
   background: #fff;
   padding: 80px 0 0; }
-  .project-portfolio-screens h2 {
+  .project-portfolio-screens .top-content {
     margin-bottom: 32px; }
 
 .portfolio-row {
