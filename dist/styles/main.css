@@ -4242,6 +4242,9 @@ footer {
     font-weight: bold;
     margin-bottom: 5px;
     text-transform: uppercase; }
+  .project-hero .text a {
+    color: #7F90A2;
+    text-decoration: underline; }
   .project-hero .project-title {
     font-size: 32px;
     font-weight: bold; }
@@ -4500,6 +4503,8 @@ footer {
       padding: 32px 0; } }
   .project-userflow.grey {
     background: #F9F9F9; }
+  .project-userflow.tixee {
+    background: #F5F5F5; }
   .project-userflow img {
     margin-top: 32px;
     width: 100%; }
