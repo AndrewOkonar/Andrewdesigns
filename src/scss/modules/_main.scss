@@ -1599,7 +1599,7 @@ footer {
     }
   }
   .full-size-image {
-    img {
+    img, video {
       width: 100%;
       @media(max-width: 767px) {
         margin-top: 24px;
@@ -1708,7 +1708,10 @@ footer {
     margin-top: 32px;
     margin-bottom: 12px;
   }
-  img {
+  video {
+    border-radius: 24px;
+  }
+  img,video {
     width: 100%;
   }
   .sketch {
@@ -1726,6 +1729,9 @@ footer {
     line-height: 1.3;
     max-width: 310px;
     margin-bottom: 16px;
+    &.lg {
+      height: 130px;
+    }
     @media(max-width: 767px) {
       margin-right: 0px;
     }
@@ -1756,6 +1762,9 @@ footer {
     }
   }
   .inner-block {
+    &.three {
+      width: 30%;
+    }
     width: 19%;
     @media(max-width: 767px) {
       width: 100%;
@@ -1964,6 +1973,11 @@ footer {
   @media(max-width: 767px) {
     flex-direction: column;
   }
+  &.full {
+    .portfolio-col {
+      width: 100%;
+    }
+  }
   .portfolio-col {
     width: 50%;
     min-width: 50%;
@@ -1987,8 +2001,18 @@ footer {
         width: 100%;
         min-width: 100%;
       }
+      &.cloudsight {
+        video {
+          border-radius: 40px;
+        }
+        min-height: 510px;
+        @media(max-width: 767px) {
+          width: 100%;
+          min-width: 100%;
+        }
+      }
       &.mobile {
-        img {
+        img,video {
           width: 30%;
         }
       }
@@ -2002,7 +2026,7 @@ footer {
         }
       }
     }
-    img {
+    img,video {
       width: 75%;
       border: solid 4px #000;
       border-radius: 10px;
